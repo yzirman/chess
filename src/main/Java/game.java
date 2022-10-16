@@ -89,5 +89,6 @@ public class game {
             }
             //deal with final position;
         }
+        return true;
     }
 }
