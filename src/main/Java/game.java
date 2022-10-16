@@ -67,7 +67,6 @@ public class game {
         int currentY = currentXY % 10;
         int futureX = toPosition /10;
         int futureY = toPosition % 10;
-        int temp = 0;
         int changeX = currentX < futureX ? 1 : -1;
         int changeY = currentY < futureY ? 1 : -1;
         //move doesn't go out of bounds
